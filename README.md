@@ -255,7 +255,7 @@ http://127.0.0.1:5000
 
 Add screenshots in the `images/` folder and update paths below.
 
-```md
+
 ![Login](images/login.png)
 
 ![Register](images/register.png)
@@ -263,7 +263,7 @@ Add screenshots in the `images/` folder and update paths below.
 ![Detection Result](images/result.png)
 
 ![History](images/history.png)
-```
+
 
 ---
 
