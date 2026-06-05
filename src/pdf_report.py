@@ -13,9 +13,10 @@ import os
 
 def generate_pdf(report, user_id):
 
-```
+
 # Create reports folder if missing
-os.makedirs(
+
+ os.makedirs(
     "reports",
     exist_ok=True
 )
