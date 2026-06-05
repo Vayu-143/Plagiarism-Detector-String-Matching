@@ -39,7 +39,9 @@ from src.database import (
 app = Flask(__name__)
 
 app.secret_key = "plagiarism_detector_secret"
+from src.database import create_database
 
+create_database()
 
 # ==================================================
 # HOME
