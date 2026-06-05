@@ -1,0 +1,3 @@
+Database systems store information.
+
+SQL is widely used.

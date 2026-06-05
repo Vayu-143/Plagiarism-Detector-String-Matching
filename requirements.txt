@@ -1,0 +1,6 @@
+colorama
+reportlab
+scikit-learn
+pandas
+flask
+matplotlib

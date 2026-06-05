@@ -1,0 +1,246 @@
+body {
+
+    background: #0f172a;
+
+    color: #f8fafc;
+
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+
+    background: #020617 !important;
+
+    border-bottom: 1px solid #1e293b;
+}
+
+.container {
+
+    color: #f8fafc;
+}
+
+.card {
+
+    background: #1e293b;
+
+    color: #f8fafc;
+
+    border: 1px solid #334155;
+
+    border-radius: 15px;
+}
+
+.card h1,
+.card h2,
+.card h3,
+.card h4,
+.card h5,
+.card h6 {
+
+    color: white;
+}
+
+.stat-card {
+
+    transition: 0.3s;
+}
+
+.stat-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 20px rgba(
+        0,
+        0,
+        0,
+        0.4
+    );
+}
+
+.form-control {
+
+    background: #0f172a;
+
+    color: white;
+
+    border: 1px solid #475569;
+}
+
+.form-control:focus {
+
+    background: #0f172a;
+
+    color: white;
+
+    border-color: #3b82f6;
+
+    box-shadow: none;
+}
+
+.form-label {
+
+    color: white;
+
+    font-weight: bold;
+}
+
+.table {
+
+    color: white;
+}
+
+.table th {
+
+    background: #334155;
+
+    color: white;
+}
+
+.table td {
+
+    background: #1e293b;
+
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+
+    background: #334155;
+}
+
+.progress {
+
+    height: 35px;
+
+    background: #334155;
+}
+
+.progress-bar {
+
+    background: linear-gradient(
+        90deg,
+        #2563eb,
+        #06b6d4
+    );
+
+    color: white;
+
+    font-weight: bold;
+
+    font-size: 15px;
+}
+
+.btn-primary {
+
+    background: #2563eb;
+
+    border: none;
+}
+
+.btn-primary:hover {
+
+    background: #1d4ed8;
+}
+
+.btn-success {
+
+    background: #16a34a;
+
+    border: none;
+}
+
+.btn-success:hover {
+
+    background: #15803d;
+}
+
+.btn-secondary {
+
+    background: #475569;
+
+    border: none;
+}
+
+.btn-secondary:hover {
+
+    background: #334155;
+}
+
+.high {
+
+    color: #ef4444;
+
+    font-weight: bold;
+}
+
+.medium {
+
+    color: #f59e0b;
+
+    font-weight: bold;
+}
+
+.low {
+
+    color: #22c55e;
+
+    font-weight: bold;
+}
+
+ol li {
+
+    margin-bottom: 10px;
+}
+
+img {
+
+    border-radius: 12px;
+
+    background: white;
+
+    padding: 10px;
+}
+
+h1 {
+
+    color: white;
+}
+
+h2 {
+
+    color: white;
+}
+
+h3 {
+
+    color: white;
+}
+
+h4 {
+
+    color: white;
+}
+
+p {
+
+    color: #cbd5e1;
+}
+.feature-box {
+
+    background: rgba(255,255,255,0.05);
+
+    border: 1px solid rgba(255,255,255,0.1);
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    color: white;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+.feature-box{
+    cursor: default;
+}

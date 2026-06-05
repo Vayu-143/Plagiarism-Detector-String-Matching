@@ -1,0 +1,9 @@
+Data Structures and Algorithms are fundamental to efficient software development.
+
+KMP algorithm performs fast pattern matching.
+
+Hashing improves lookup performance.
+
+Database indexing improves query speed.
+
+Cloud Computing enables scalable applications.
