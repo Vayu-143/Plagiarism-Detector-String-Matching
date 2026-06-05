@@ -9,7 +9,6 @@ from flask import (
     redirect,
     session
 )
-
 from src.pdf_report import generate_pdf
 from src.multi_compare import compare_against_sources
 from src.preprocess import clean_text, split_sentences
