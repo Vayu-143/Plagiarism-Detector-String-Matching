@@ -97,20 +97,22 @@ def register_user(username, email, password):
 # LOGIN USER
 # ==================================================
 
-def login_user(username, password):
+def login_user(username_or_email, password):
 
     conn = sqlite3.connect(DB_NAME)
+
     cursor = conn.cursor()
 
     cursor.execute(
         """
         SELECT *
         FROM users
-        WHERE username=?
+        WHERE (username=? OR email=?)
         AND password=?
         """,
         (
-            username,
+            username_or_email,
+            username_or_email,
             password
         )
     )
